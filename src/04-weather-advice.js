@@ -27,7 +27,7 @@ export function getWeatherAdvice(temperature, isRaining) {
 		if (isRaining) {
 			return "Cold and wet - best to stay indoors";
 		} else {
-			return "Cold but dry - maybe a short walk?";
+			return "Chilly - wear layers for your hike";
 		}
 	} else if (temperature >= 15 && temperature < 25) {
 		if (isRaining) {

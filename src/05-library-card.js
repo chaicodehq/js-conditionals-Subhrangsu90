@@ -50,7 +50,7 @@ export function canBorrowBook(memberAge, hasValidCard, overdueBooks) {
 		};
 	} else {
 		return {
-			allowed: false,
+			allowed: true,
 			message: "You may borrow up to 3 books",
 		};
 	}
